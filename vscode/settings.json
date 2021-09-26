@@ -1,0 +1,55 @@
+{
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "all",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "twig": "html",
+    "liquid": "html"
+  },
+  "emmet.excludeLanguages": ["markdown"],
+  "eslint.format.enable": true,
+  "html.format.wrapLineLength": 80,
+  "files.autoSaveDelay": 500,
+  "prettier.singleQuote": true,
+  "window.zoomLevel": -0.5,
+  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "[Night Owl]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "editorGroup.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+    },
+    "[Night Owl (No Italics)]": {
+      "activityBar.background": "#000C1D",
+      "activityBar.border": "#102a44",
+      "editorGroup.border": "#102a44",
+      "sideBar.background": "#001122",
+      "sideBar.border": "#102a44",
+      "sideBar.foreground": "#8BADC1"
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //vscode.typescript-language-features
+  }
+}
