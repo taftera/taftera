@@ -1,0 +1,91 @@
+set nocompatible                       
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kaicataldo/material.vim'
+""Plugin 'rakr/vim-one'
+Plugin 'vim-python/python-syntax'
+Plugin 'ycm-core/YouCompleteMe'
+""Plugin 'mattn/emmet-vim'
+""Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+call vundle#end()
+
+" syntax highlighting
+syntax on
+
+" Material Theme ColorScheme
+let g:material_terminal_italics = 1
+let g:material_theme_style = 'darker'
+colorscheme material
+
+if (has('nvim'))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR = 1
+endif
+if(has('termguicolors'))
+    set termguicolors
+endif
+
+filetype plugin indent on
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+" Python PEP8 indentation
+au BufNewFile,BufRead *.py
+    \ set textwidth=79 |
+    \ set fileformat=unix
+
+" tab size
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+
+" auto indent
+set autoindent
+" set line number
+set number
+" set line under cursor
+set cursorline
+" parenthesys match {} [] ()
+set showmatch
+
+" Python highlighting
+let python_highlight_all = 1
+
+" encoding
+set encoding=utf-8
+
+" Keymaps
+" =============
+
+" Open terminal
+"map <F2> :belowright terminal<CR>
+
+" NerdTree
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
+
+" Centering cursor
+augroup VCenterCursor
+  au!
+  au BufEnter,WinEnter,WinNew,VimResized *,*.*
+        \ let &scrolloff=winheight(win_getid())/2
+augroup END     
