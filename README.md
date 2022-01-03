@@ -1,15 +1,5 @@
-- 👋 Hi, I’m Alex => @taftera
+# 👋 Hi, I’m Alex
+- 🔎 You can find me as: @taftera (everywhere that matters)
 - 👀 I’m interested in automating tasks
-- 🌱 I’m currently learning python / react
-- 📫 email me at: aturati@gmail.com
-
-```
-    \.===./    
-    | p q |    
-     \_^_/     
-    /| []|\    
-  ()/|___|\()  
-     /| |\     
-    (0) (0)     Also, I like robots
-    
-```
+- 🌱 Currently learning python / next.js
+- 📫 email me dog pictures at: aturati@gmail.com 
