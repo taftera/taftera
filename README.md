@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Alex
+# 👋 Hi, I’m Alex.
 - 🔎 **@taftera**: everywhere.
 - 👀 I’m interested in automating tasks
 - 🌱 Currently learning python / next.js
