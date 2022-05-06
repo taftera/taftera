@@ -1,26 +1,43 @@
 {
   "auto-rename-tag.activationOnLanguage": ["*"],
   "editor.tabSize": 2,
+  // "editor.tabSize": 4,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
+  // "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "twig": "html",
-    "liquid": "html"
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[html]": {
+  //   "editor.defaultFormatter": "vscode.html-language-features",
+  //   "editor.defaultFormatter": "sissel.shopify-liquid",
+  //   "editor.codeActionsOnSave": {
+  //     "source.fixAll.eslint": false
+  //   }
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "emmet.excludeLanguages": ["markdown"],
-  "eslint.format.enable": true,
-  "html.format.wrapLineLength": 80,
-  "files.autoSaveDelay": 500,
-  "prettier.singleQuote": true,
-  "window.zoomLevel": -0.5,
+  // "[liquid]": {
+  //   "editor.defaultFormatter": "vscode.html-language-features",
+  //   "editor.defaultFormatter": "sissel.shopify-liquid"
+  // },
+  "emmet.includeLanguages": { "liquid": "html" },
+  "files.associations": {
+    "*.css.liquid": "css",
+    "*.scss.liquid": "scss",
+    "*.js.liquid": "javascript"
+  },
+  "liquid.format": true,
+  "themeCheck.checkOnOpen": true,
+  // "themeCheck.checkOnChange": true,
+  "themeCheck.checkOnSave": true,
+  "themeCheck.onlySingleFileChecks": true,
   "workbench.colorTheme": "Night Owl (No Italics)",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -41,15 +58,5 @@
       "sideBar.border": "#102a44",
       "sideBar.foreground": "#8BADC1"
     }
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-    //vscode.typescript-language-features
   }
 }
