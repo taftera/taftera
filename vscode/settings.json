@@ -10,16 +10,19 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "[html]": {
-  //   "editor.defaultFormatter": "vscode.html-language-features",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
   //   "editor.defaultFormatter": "sissel.shopify-liquid",
   //   "editor.codeActionsOnSave": {
   //     "source.fixAll.eslint": false
   //   }
-  // },
-  // "[javascript]": {
-  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // },
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
