@@ -1,7 +1,7 @@
 {
   "auto-rename-tag.activationOnLanguage": ["*"],
   "editor.tabSize": 2,
-  // "editor.tabSize": 4,
+  //"editor.tabSize": 4,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.fontFamily": "Fira Code",
@@ -61,5 +61,7 @@
       "sideBar.border": "#102a44",
       "sideBar.foreground": "#8BADC1"
     }
-  }
+  },
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false
 }
