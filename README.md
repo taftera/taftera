@@ -1,4 +1,4 @@
-# 🙋🏻‍♂️ Hi, I’m Alex.
+# Hi, I’m Alex.
 I’m a developer with over 10 years of experience, specializing in Shopify and e-commerce. I’ve built and managed high-profile Shopify stores, developed custom apps, and led multi-store setups across different regions. I’m skilled in front-end development using JavaScript, TypeScript, React, and Next.js, and have extensive experience in optimizing store performance and scaling applications. My background includes handling real-time data, designing complex database structures, and implementing CI/CD pipelines to streamline deployment processes. I’m passionate about building innovative, user-friendly solutions and thrive in remote, collaborative environments.
 
 # 💻 Tech Stack:
