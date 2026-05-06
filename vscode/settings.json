@@ -9,7 +9,7 @@
   // "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
   //   "editor.defaultFormatter": "sissel.shopify-liquid",
@@ -30,18 +30,24 @@
   //   "editor.defaultFormatter": "vscode.html-language-features",
   //   "editor.defaultFormatter": "sissel.shopify-liquid"
   // },
-  "emmet.includeLanguages": { "liquid": "html" },
+  "emmet.includeLanguages": { 
+    "liquid": "html",
+    "javascript": "javascriptreact"
+  },
   "files.associations": {
     "*.css.liquid": "css",
     "*.scss.liquid": "scss",
     "*.js.liquid": "javascript"
   },
+  "git.confirmSync": false,
+  // "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
   "liquid.format": true,
   "themeCheck.checkOnOpen": true,
   // "themeCheck.checkOnChange": true,
   "themeCheck.checkOnSave": true,
   "themeCheck.onlySingleFileChecks": true,
-  "workbench.colorTheme": "Night Owl (No Italics)",
+  "workbench.colorTheme": "poimandres-storm",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorCustomizations": {
@@ -61,7 +67,6 @@
       "sideBar.border": "#102a44",
       "sideBar.foreground": "#8BADC1"
     }
-  },
-  "git.confirmSync": false,
-  "diffEditor.ignoreTrimWhitespace": false
+  }
+  // "diffEditor.ignoreTrimWhitespace": false,
 }
